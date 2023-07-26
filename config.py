@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/CrezyDoll/VcBot")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Kalakar_Sangram")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/RedWine_MusicWorld")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/the_iconic_support")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/the_iconic_house")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -77,11 +77,11 @@ autoclean = []
 
 START = getenv("START", "https://graph.org/file/34147ab43ea65961ababb.jpg")
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/e066e1971b116c1dc85db.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/f51cba0eb0664714bab9b.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/3f77c01cb68d008b4b775.jpg",
+    "https://telegra.ph/file/41ca276e24577edc143eb.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/3f77c01cb68d008b4b775.jpg"
