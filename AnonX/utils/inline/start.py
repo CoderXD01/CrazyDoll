@@ -25,7 +25,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="✘ 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 ✘",
-                url=f"https://t.me/+gQwKPFkDRQE4Nzg1",
+                url=f"https://t.me/the_iconic_support",
             )
         ],
      ]
@@ -45,15 +45,15 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="✘ 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 ✘", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="✘ 𝙐𝙋𝘿𝘼𝙏𝙀𝙎 ✘", url=f"https://t.me/Sangram_Updates",
+                text="✘ 𝙐𝙋𝘿𝘼𝙏𝙀𝙎 ✘", url=f"https://t.me/iconic_botshub",
             )
         ],
         [
             InlineKeyboardButton(
-                text="✘ 𝘾𝙃𝘼𝙏𝙏𝙄𝙉𝙂𝙎 ✘", url=f"https://t.me/+gQwKPFkDRQE4Nzg1",
+                text="✘ 𝘾𝙃𝘼𝙏𝙏𝙄𝙉𝙂𝙎 ✘", url=f"https://t.me/the_iconic_house",
             ),
             InlineKeyboardButton(
-                text="✘ 𝙁𝙀𝙀𝙇𝙄𝙉𝙂𝙎 ✘", url=f"https://t.me/Kalakar_Sangram",
+                text="✘ 𝙁𝙀𝙀𝙇𝙄𝙉𝙂𝙎 ✘", url=f"https://t.me/about_abhi_i",
             )
         ],
         [
