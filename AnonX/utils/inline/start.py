@@ -9,7 +9,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="✘ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ✘",
+                text="✨ ✘ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 🥀 ✘",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
@@ -50,7 +50,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="✘ 𝘾𝙃𝘼𝙏𝙏𝙄𝙉𝙂𝙎 ✘", url=f"https://t.me/the_iconic_house",
+                text="✘ 𝘾𝙃𝘼𝙏𝙏𝙄𝙉𝙂𝙎 ✘", url=f"https://t.me/english_hindi_group_chat",
             ),
             InlineKeyboardButton(
                 text="✘ 𝙁𝙀𝙀𝙇𝙄𝙉𝙂𝙎 ✘", url=f"https://t.me/about_abhi_i",
