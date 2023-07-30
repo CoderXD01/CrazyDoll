@@ -14,9 +14,9 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝙉𝙄𝘿𝙃𝙄")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "—͟͞ 〇 ꪹ ꫀ 〇")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1711510822").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5402516850").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -122,7 +122,7 @@ SONG_DOWNLOAD_DURATION_LIMIT = int(
 
 
 if UPSTREAM_REPO:
-    if not re.match("(?:http|https)://", UPSTREAM_REPO):
+    if not re.match("(?:http|https)://", UPSTREAM_REPO): https://github.com/CoderXD01/CrazyDoll
         print(
             "[ERROR] - Your UPSTREAM_REPO url is wrong. Please ensure that it starts with https://"
         )
