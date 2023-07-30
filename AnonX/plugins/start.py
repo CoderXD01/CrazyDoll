@@ -88,7 +88,7 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/Red_Wine_Op) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/the_iconic_botshub) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                     else:
                         msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
@@ -165,7 +165,7 @@ async def start_comm(client, message: Message, _):
 ☞ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗟𝗶𝗻𝗸: **[Visit Channel]({channellink})**
 ☞ 𝗟𝗶𝗻𝗸: **[Watch on YouTube]({link})**
 
-🥀 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 [𝗥𝗘𝗗-𝗪𝗜𝗡𝗘](https://t.me/Kalakar_Sangram)"""
+🥀 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 [the-iconic-botshub](https://t.me/the_iconic_botshub)"""
             key = InlineKeyboardMarkup(
                 [
                     [
@@ -175,10 +175,10 @@ async def start_comm(client, message: Message, _):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="✘ 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 ✘", url="https://t.me/+gQwKPFkDRQE4Nzg1"
+                            text="✘ 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 ✘", url="https://t.me/english_hindi_group_chat"
                         ),
                         InlineKeyboardButton(
-                            text="✘ 𝙐𝙋𝘿𝘼𝙏𝙀𝙎 ✘", url="https://t.me/Sangram_Updates"
+                            text="✘ 𝙐𝙋𝘿𝘼𝙏𝙀𝙎 ✘", url="https://t.me/the_iconic_botshub"
                         ),
                     ],
                 ]
